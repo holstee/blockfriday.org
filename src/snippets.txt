@@ -1,0 +1,100 @@
+
+<!--
+
+
+
+        <script>
+
+        $(document).ready(function(){
+          var load = {};
+          load.window = {};
+          load.image = {};
+          load.window.height = $(window).height();
+          load.window.width = $(window).width();
+          load.image.height = $("#background img").height();
+          load.image.width = $("#background img").width();
+          var trigger = false;
+
+          // if white is showing on load
+          if(load.image.height < load.window.height){
+            // expand image width so white is not showing
+            $("#background img")
+              .height((load.window.width * load.window.height) / load.image.height)
+              .css("max-width","none")
+            ;
+          }
+
+          $(window).resize(function(){
+            var dynamic = {};
+            dynamic.window = {};
+            dynamic.image = {};
+            dynamic.window.height = $(window).height();
+            dynamic.window.width = $(window).width();
+            dynamic.image.height = $("#background img").height();
+            dynamic.image.width = $("#background img").width();
+
+
+
+
+            /*
+
+            if(dynamic.image.height > load.window.height){
+              // expand image width so white is not showing
+              $("#background img")
+                .height((load.window.width * load.window.height) / load.image.height)
+                .css("max-width","none")
+              ;
+            }else{
+              $("#background img")
+                .css("max-width","100%")
+              ;
+            }
+            */
+  
+            /*
+            if(dynamic.image.height < load.window.height){
+              console.log(dynamic.image.height+" > "+load.window.height);
+            }
+            */
+
+
+            /*
+
+            if(wsh < idh ){
+              if(c1 == false){
+                c1 = true;
+                console.log("test");
+                $("#background img").width(wdw);
+              }
+            }
+
+            if(height.image <= height.background){
+              console.log(height.image+" <= "+height.background);
+              $("#background img").width(height.background);
+            }else{
+              $("#background img").css("width","100%");
+            }
+            */
+          });
+        });
+
+        </script>
+
+
+-->
+
+
+               <!--
+
+                  <form>
+                    <input type="text" placeholder="your@email.com" class="email ropa-sans uppercase">
+                    
+                    <select class="identify ropa-sans uppercase">
+                      <option>I am a brand or shop</option>
+                      <option>I am an individual</option>
+                    </select>
+
+                    <input type="submit" class="btn btn-inverse ropa-sans uppercase" value="Submit">
+                  </form>
+                  
+                  -->
