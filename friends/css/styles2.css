@@ -124,14 +124,13 @@ a:hover {
 
 .thing {
   float: left;
-  width: 147px;
+  width: 145px;
   margin-right: 9px;
 }
 
 .top-thing {
   height: 126px;
   position: relative;
-  margin-bottom: 5px;
 }
 
 .top-thing img {
