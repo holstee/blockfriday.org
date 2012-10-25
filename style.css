@@ -4,6 +4,7 @@
   margin-right: auto;
   padding-left: 0;
   padding-right: 0;
+  background-color: #fff
 }
 
 .row-fluid {
@@ -43,8 +44,6 @@
   margin-top: 60px;
   height: 140px;
   width: 760px;
-  background: url(src/block-friday/logo.png) no-repeat top left;
-  background-size: 140px 140px;
   float: left;
   font-weight: bold;
   font-size: 72px;
@@ -55,7 +54,7 @@
 
 .header p {
   margin-top: 60px;
-  margin-left: 160px;
+  text-align: center;
 }
 
 .header p#presented {
@@ -85,7 +84,7 @@
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .friends li {
@@ -166,6 +165,20 @@
   height: 400px;
 }
 
+.friends p {
+  text-align: center;
+  margin-top: -15px;
+  font-weight: lighter;
+}
+
+.friends p a {
+  text-decoration: none;
+  color: #08c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
 #holstee {
   background: url(logos/holstee.png) no-repeat;
   background-size: 220px auto;
@@ -177,41 +190,66 @@
 
 #summit {
   background: url(logos/summit.png) no-repeat;
-  background-size: 175px auto;
+  background-size: 130px auto;
   background-position: 50% 50%;
   width: 175px;
   height: 185px;
   float: left;
   padding-right: 15px;
+  margin-bottom: 20px;
 }
 
-#unreasonable {
-  background: url(logos/unreasonable.png) no-repeat;
-  background-size: 175px auto;
+#sandbox {
+  background: url(logos/sandbox.png) no-repeat;
+  background-size: 130px auto;
+  background-position: 50% 50%;
+  width: 175px;
+  height: 185px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#youthtrade {
+  background: url(logos/youthtrade.png) no-repeat;
+  background-size: 130px auto;
   background-position: 50% 50%;
   width: 175px;
   height: 185px;
   float: left;
   padding-right: 15px;
+  margin-bottom: 20px;
 }
 
 #seth {
   background: url(logos/seth.png) no-repeat;
-  background-size: 175px auto;
+  background-size: 130px auto;
   background-position: 50% 50%;
   width: 175px;
   height: 185px;
   float: left;
   padding-right: 15px;
+  margin-bottom: 20px;
 }
 
-#nomi {
-  background: url(logos/nomi.png) no-repeat;
-  background-size: 175px auto;
+#unreasonable {
+  background: url(logos/unreasonable.png) no-repeat;
+  background-size: 130px auto;
   background-position: 50% 50%;
   width: 175px;
   height: 185px;
   float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#nomi {
+  background: url(logos/nomi.png) no-repeat;
+  background-size: 130px auto;
+  background-position: 50% 50%;
+  width: 175px;
+  height: 185px;
+  float: left;
+  margin-bottom: 20px;
 
 }
 
