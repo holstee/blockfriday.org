@@ -1,47 +1,248 @@
-.ropa-sans{font-family:'Ropa Sans', sans-serif;}
-.uppercase{text-transform:uppercase;}
-html,body,.window-height{height:100%;min-height:100%;max-height:100%;}
-.window-width{width:100%;min-width:100%;max-width:100%;}
-#background{overflow:hidden;position:fixed;z-index:300;background: url('src/block-friday/Black-Friday-2011-bw.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-#foreground{position:relative;z-index:301;}
-#sleeve-1{background:#222222 url(src/block-friday/dark_wall.png);overflow:hidden;}
-#sleeve-1 p{font-size:40px;line-height:75px;color:#fff;}
-#sleeve-1 p span{display:block;margin:auto;}
-#sleeve-1 a.btn{margin-top:25px;font-size:25px}
-#sleeve-1 .center-horizontal{width:960px;text-align:center;position:relative;margin:auto;}
-#sleeve-1 .center-vertical{position:absolute;top:50%;height:381px;margin-top:-190px;}
-#sleeve-2{overflow:hidden;}
-#sleeve-2 .center-horizontal{width:350px;text-align:center;position:relative;margin:auto;}
-#sleeve-2 .center-vertical{position:absolute;top:50%;height:480px;margin-top:-240px;}
-#sleeve-2 #logo{width:205px;height:205px;margin:0 auto 25px auto;}
-#sleeve-2 #success{padding:0 0 25px 0 ;color: hsl(162, 60%, 61%);text-shadow: 2px 2px black;font-size: 14px;font-weight: 700;}
-#sleeve-2 form input.email{font-size:25px;display:block;width:337px;padding:0 5px 0 5px;height:36px;}
-#sleeve-2 form input.email::-webkit-input-placeholder {line-height:25px;}
-#sleeve-2 form select.identify{font-size:25px;display:block;width:350px;padding:3px 0 3px 5px;height:38px;}
-#sleeve-2 form input.btn{font-size:25px;padding:14px 14px;width:345px;}
-#sleeve-2 p{font-size:30px;line-height:30px;color:#222;margin:25px 0 0 0;font-weight: 700;}
-#sleeve-2 p a:visited,
-#sleeve-2 p a:link,
-#sleeve-2 p a:active{color:#222;}
-#sleeve-2 p a:hover{color:#222;}
-#coalition{width:310px;padding: 20px;text-align:center;position:absolute;bottom:0;}
-#coalition p {font-weight:400; z-index: 1000;font-size:15px;color:#fff}
-#coalition p a{text-decoration:underline;}
-#coalition p a:visited,
-#coalition p a:link,
-#coalition p a:active{color:#fff;}
-#coalition p a:hover{color:#fff;}
-
-@media (max-width: 500px) {
-  #sleeve-1 p{font-size:20px;line-height:25px;}
-  #sleeve-1 .center-horizontal{width:300px;}
-  #sleeve-1 .center-vertical{height:232px;margin-top:-116px}
-  #coalition{display:none;}
-  #logo{width:150px !important;height:150px !important;}
-  #sleeve-2 form input.email{width:297px;}
-  #sleeve-2 form select.identify{width:310px;}
-  #sleeve-2 form input.btn{width:305px;}
-  #sleeve-2 p{font-size:20px;line-height:20px}
-  #sleeve-2 .center-horizontal{width:310px;}
-  #sleeve-2.window-width{height: 140%;min-height: 140%;max-height: 140%;}
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
 }
+
+.row-fluid {
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.borderheader#one {
+  height: 260px;
+  width: 100%;
+}
+
+.borderheader#two {
+  height: 420px;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.borderheader#three {
+  height: 488px;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.borderheader#four {
+  height: 475px;
+  width: 100%;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.header {
+  margin-top: 60px;
+  height: 140px;
+  width: 760px;
+  background: url(src/block-friday/logo.png) no-repeat top left;
+  background-size: 140px 140px;
+  float: left;
+  font-weight: bold;
+  font-size: 72px;
+  padding-bottom: 20px;
+  color: #444;
+  line-height: 0px;
+}
+
+.header p {
+  margin-top: 60px;
+  margin-left: 160px;
+}
+
+.header p#presented {
+  text-align: right;
+  font-size: 18px;
+  font-style: italic;
+  font-family: georgia;
+  font-weight: normal;
+}
+
+.statement {
+  font-size: 48px;
+  line-height: 58px;
+  padding-bottom: 60px;
+}
+
+.video {
+  padding-bottom: 45px;
+}
+
+.divider {
+  text-align: center;
+  font-family: 'Georgia', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 350px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f2f2f2;
+}
+
+.friends li {
+  width: 185px;
+  height: 185px;
+  padding-right: 10px;
+  list-style-type: none;
+  float: left;
+  margin: auto;
+  display: block;
+}
+
+.friends li img {
+  margin: auto;
+
+}
+
+.cta {
+  margin-top: 40px;
+  padding-bottom: 65px;
+}
+
+.action {
+  float: left;
+  font-size: 24px;
+  line-height: 36px;
+  width: 260px;
+  height: 350px;
+  margin-right: 20px;
+  display: block;
+}
+
+.thing p {
+  padding-top: 10px;
+  width: 145px;
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  padding-bottom: 0;
+}
+
+.thing p b {
+  font-size: 16px;
+}
+
+#things {
+  width: 470px;
+  height: 350px;
+  padding-bottom: 75px;
+  float: left;
+}
+
+.thing {
+  float: left;
+  width: 147px;
+  margin-right: 9px;
+}
+
+.top-thing {
+  height: 126px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.top-thing img {
+  position: absolute;
+  bottom: 0;
+  width: 130px;
+  margin-left: 7.5px;
+}
+
+.bottom-thing {
+
+}
+
+.friends {
+  margin-top: 50px;
+  height: 400px;
+}
+
+#holstee {
+  background: url(logos/holstee.png) no-repeat;
+  background-size: 220px auto;
+  background-position: 50% 30%;
+  width: 100%;
+  height: 125px;
+  text-indent: -9999px;
+}
+
+#summit {
+  background: url(logos/summit.png) no-repeat;
+  background-size: 175px auto;
+  background-position: 50% 50%;
+  width: 175px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+}
+
+#unreasonable {
+  background: url(logos/unreasonable.png) no-repeat;
+  background-size: 175px auto;
+  background-position: 50% 50%;
+  width: 175px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+}
+
+#seth {
+  background: url(logos/seth.png) no-repeat;
+  background-size: 175px auto;
+  background-position: 50% 50%;
+  width: 175px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+}
+
+#nomi {
+  background: url(logos/nomi.png) no-repeat;
+  background-size: 175px auto;
+  background-position: 50% 50%;
+  width: 175px;
+  height: 185px;
+  float: left;
+
+}
+
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup form {
+  text-align:left;
+  float: right;
+  margin-top: -10px;
+}
+
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa;
+  border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline; font-size:22px;
+  font-weight: bold; height: 40px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center;
+  text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:inline; font-size:16px; padding-bottom:0px; font-weight:bold;}
+#mc_embed_signup input.email {display: inline; padding:0px 0; margin:0 10px 0px 0; text-indent:8px; width:270px; min-width:130px; height: 40px;}
+#mc_embed_signup input.button {display: inline; width:180px; margin:0 0 10px 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+
