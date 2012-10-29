@@ -1,11 +1,4 @@
-.header {
-  background-size: 144px 144px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-}
-
-h1 {
+  h1 {
   height: 144px;
   width: 144px;
   float: left;
@@ -27,19 +20,7 @@ h2 {
   margin-right: auto;
 }
 
-.header  {
-  padding-bottom: 50px;
-}
 
-.header p {
-  font-size: 19px;
-  line-height: 32px;
-  font-weight: bold;
-  margin-left: 170px;
-  padding-top: 65px;
-  margin-top: 24px;
-  margin-bottom: 0px;
-}
 
 p.light {
   font-family: georgia;
@@ -143,6 +124,32 @@ a:hover {
 
 .bottom-thing {
 
+}
+
+.header {
+  height: 140px;
+  width: 960px;
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  color: #444;
+  line-height: 0px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.header p {
+  text-align: center;
+}
+
+.header p#presented {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-family: georgia;
+  font-weight: normal;
+  margin-top:50px;
 }
 
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
