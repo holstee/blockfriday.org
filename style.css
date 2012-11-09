@@ -25,7 +25,7 @@ body {background-color: white;}
 }
 
 .borderheader#two {
-  height: 420px;
+  height: 480px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
   margin-top: 30px;
@@ -33,13 +33,13 @@ body {background-color: white;}
 }
 
 .borderheader#three {
-  height: 494px;
+  height: 630px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
 }
 
 .borderheader#four {
-  height: 520px;
+  height: 600px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
 }
@@ -51,7 +51,7 @@ body {background-color: white;}
 }
 
 .borderheader#six {
-  height: 248px;
+  height: 307px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
 }
@@ -84,11 +84,12 @@ body {background-color: white;}
 .statement {
   font-size: 48px;
   line-height: 58px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 
 .video {
-  padding-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 145px;
 }
 
 .divider {
@@ -119,7 +120,7 @@ body {background-color: white;}
 }
 
 .cta {
-  margin-top: 40px;
+  padding-top: 70px;
   padding-bottom: 65px;
 }
 
@@ -165,13 +166,25 @@ body {background-color: white;}
   margin-top:15px;
 }
 
+.right {
+  text-align: left;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.email {
+
+}
+
 .thing p b {
   font-size: 16px;
 }
 
 #things {
   width: 760px;
-  margin-bottom: 28px;
+  margin-bottom: 78px;
   float: left;
   margin-top: 60px;
 }
@@ -201,7 +214,7 @@ body {background-color: white;}
 
 .friends {
   margin-top: 50px;
-  height: 245px;
+  height: 460px;
   margin-left:100px;
 }
 
@@ -245,6 +258,7 @@ body {background-color: white;}
   width: 125px;
   height: 185px;
   float: left;
+  padding-right: 15px;
   margin-bottom: 20px;
 }
 
@@ -285,9 +299,10 @@ body {background-color: white;}
   background: url(https://twimg0-a.akamaihd.net/profile_images/2730377940/34bd7c3124958de998bd0cba9b41fa7e.png) no-repeat;
   background-size: 100px auto;
   background-position: 50% 50%;
-  width: 135px;
+  width: 125px;
   height: 185px;
   float: left;
+  padding-right: 15px;
   margin-bottom: 20px;
 }
 
@@ -298,6 +313,7 @@ body {background-color: white;}
   width: 125px;
   height: 185px;
   float: left;
+  padding-right: 15px;
   margin-bottom: 20px;
 }
 
@@ -308,6 +324,29 @@ body {background-color: white;}
   width: 125px;
   height: 185px;
   float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#csi {
+  background: url(logos/csi.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#brainpickings {
+  background: url(logos/brainpickings.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
   margin-bottom: 20px;
 }
 
@@ -332,7 +371,7 @@ body {background-color: white;}
 #mc_embed_signup .clear {clear:none; display:inline;}
 
 #mc_embed_signup label {display:inline; font-size:16px; padding-bottom:0px; font-weight:bold;}
-#mc_embed_signup input.email {display: inline; padding:0px 0; margin:0 10px 0px 0; text-indent:8px; width:270px; min-width:130px; height: 40px;}
+#mc_embed_signup input.email {display: inline; padding:0px 0; margin:0 10px 0px 0; text-indent:8px; width:564px; min-width:130px; height: 40px;}
 #mc_embed_signup input.button {display: inline; width:180px; margin:0 0 10px 0; min-width:90px;}
 
 #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
