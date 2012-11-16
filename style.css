@@ -350,6 +350,39 @@ body {background-color: white;}
   margin-bottom: 20px;
 }
 
+#evolver {
+  background: url(logos/evolver.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#besocialchange {
+  background: url(logos/besocialchange.jpg) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#good {
+  background: url(logos/good.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup form {
   text-align:left;
