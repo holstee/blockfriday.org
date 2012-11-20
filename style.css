@@ -383,6 +383,39 @@ body {background-color: white;}
   margin-bottom: 20px;
 }
 
+#swissmiss {
+  background: url(logos/swissmiss.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#unconsumption {
+  background: url(logos/unconsumption.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#nywse {
+  background: url(logos/nywse.gif) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup form {
   text-align:left;
