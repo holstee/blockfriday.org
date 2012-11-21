@@ -19,13 +19,31 @@ body {background-color: white;}
   padding-right: 0;
 }
 
+#head {
+  font-size: 54px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#subhead {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#body {
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 10px;
+}
+
 .borderheader#one {
   height: 220px;
   width: 100%;
 }
 
 .borderheader#two {
-  height: 480px;
+  height: 355px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
   margin-top: 30px;
@@ -33,13 +51,13 @@ body {background-color: white;}
 }
 
 .borderheader#three {
-  height: 630px;
+  height: 1025px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
 }
 
 .borderheader#four {
-  height: 600px;
+  height: 1000px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
 }
@@ -51,7 +69,8 @@ body {background-color: white;}
 }
 
 .borderheader#six {
-  height: 307px;
+  height: 330px;
+  margin-bottom: 40px;
   width: 100%;
   border-bottom: 1px solid #bcbcbc;
 }
@@ -62,7 +81,7 @@ body {background-color: white;}
   width: 760px;
   float: left;
   font-weight: bold;
-  font-size: 72px;
+  font-size: 80px;
   padding-bottom: 20px;
   color: #444;
   line-height: 0px;
@@ -89,7 +108,8 @@ body {background-color: white;}
 
 .video {
   padding-top: 45px;
-  padding-bottom: 145px;
+  padding-bottom: 70px;
+  height: 900px;
 }
 
 .divider {
@@ -120,8 +140,8 @@ body {background-color: white;}
 }
 
 .cta {
-  padding-top: 70px;
-  padding-bottom: 65px;
+  padding-top: 5px;
+  padding-bottom: 0px;
 }
 
 .action {
@@ -131,6 +151,7 @@ body {background-color: white;}
   width: 760px;
   margin-right: 20px;
   display: block;
+  padding-bottom: 20px;
 }
 
 .actiontwo {
@@ -142,7 +163,7 @@ body {background-color: white;}
   display: block;
   text-align: left;
   margin-bottom: 47px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .thing p {
@@ -172,6 +193,31 @@ body {background-color: white;}
   line-height: 28px;
   margin-top: 10px;
   padding-left: 10px;
+}
+
+.ideas {
+  padding-bottom: 245px;
+  height: 740px;
+  width: 760px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.ideas img {
+  float: left;
+  width: 240px;
+  height: 240px;
+  margin: 0 5px 10px 5px;
+}
+
+.video iframe {
+  float: left;
+  width: 360px;
+  margin: 0 5px 10px 5px;
+}
+
+#wholevid iframe {
+  width: 730px;
 }
 
 .email {
@@ -213,7 +259,6 @@ body {background-color: white;}
 }
 
 .friends {
-  margin-top: 50px;
   height: 460px;
   margin-left:100px;
 }
@@ -407,6 +452,83 @@ body {background-color: white;}
 
 #nywse {
   background: url(logos/nywse.gif) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#nywse {
+  background: url(logos/nywse.gif) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#fastcoexist {
+  background: url(logos/fastcoexist.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#pcp {
+  background: url(logos/pcp.jpg) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#insidefmm {
+  background: url(logos/insidefmm.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#swapmeet {
+  background: url(logos/swapmeet.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#minimalists {
+  background: url(logos/minimalists.png) no-repeat;
+  background-size: 100px auto;
+  background-position: 50% 50%;
+  width: 125px;
+  height: 185px;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+#opf {
+  background: url(logos/opf.jpg) no-repeat;
   background-size: 100px auto;
   background-position: 50% 50%;
   width: 125px;
