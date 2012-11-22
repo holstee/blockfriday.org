@@ -93,11 +93,12 @@ body {background-color: white;}
 }
 
 .header p#presented {
-  text-align: center;
+  text-align: right;
   font-size: 18px;
   font-style: italic;
   font-family: georgia;
   font-weight: normal;
+  margin-right:66px;
 }
 
 .statement {
